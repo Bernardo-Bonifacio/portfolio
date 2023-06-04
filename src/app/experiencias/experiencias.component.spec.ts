@@ -1,3 +1,5 @@
+// Projeto Portfolio
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ExperienciasComponent } from './experiencias.component';
@@ -8,9 +10,8 @@ describe('ExperienciasComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ExperienciasComponent ]
-    })
-    .compileComponents();
+      declarations: [ExperienciasComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(ExperienciasComponent);
     component = fixture.componentInstance;

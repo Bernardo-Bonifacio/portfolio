@@ -1,359 +1,165 @@
-<section class="container d-flex flex-column gap-3" id="projetos">
+<!-- Projeto Portfolio -->
+
+<main class="container my-5 d-flex flex-column gap-3">
   <h2
-    class="p-3 text-center border border-2 border-info-subtle rounded text-bg-info fw-semibold"
+    class="p-3 text-center border border-3 border-info-subtle rounded text-bg-info fw-semibold"
   >
     Projetos
   </h2>
-  <div
-    class="accordion container container-lg"
-    id="accordionPanelsStayOpenExample"
-  >
-    <div class="accordion-item">
-      <h2 class="accordion-header">
+  <div class="container container-lg d-flex flex-column gap-2">
+    <h4
+      class="px-5 py-2 border border-1 border-info-subtle rounded text-bg-info"
+    >
+      BBFLIX
+    </h4>
+    <div
+      id="carouselExampleIndicators1"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
         <button
-          class="accordion-button px-5 py-2 border border-1 border-info-subtle text-bg-info fs-4"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseOneP"
-          aria-expanded="true"
-          aria-controls="panelsStayOpen-collapseOneP"
-        >
-          BBFLIX
-        </button>
-      </h2>
-
-      <div
-        id="panelsStayOpen-collapseOneP"
-        class="accordion-collapse collapse show"
-      >
-        <div
-          class="accordion-body d-flex flex-column gap-2 px-5 py-4 bg-body-secondary"
-        >
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="../../assets/bbflix1.jpg"
-                  class="d-block w-100"
-                  alt="Filmes do BBFLIX"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="../../assets/bbflix2.jpg"
-                  class="d-block w-100"
-                  alt="Seções do BBFLIX"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="../../assets/bbflix3.jpg"
-                  class="d-block w-100"
-                  alt="Pesquisas do BBFLIX"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="gap-5">
-            <h5 class="text-center">Biblioteca de vídeos e séries</h5>
-            <p>
-              Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, TS, Angular,
-              RXJS, HTTP, Routes, consumo da API The Movie Database.
-            </p>
-
-            <p>Estado: em desenvolvimento</p>
-            <p>Ultima atualização em 23/05/23.</p>
-          </div>
-          <div class="d-flex justify-content-evenly">
-            <a href="https://bbflix.vercel.app">
-              <img src="../../assets/vercel.svg" alt="Icone Vercel" />
-              Ver pagina no Vercel
-            </a>
-            <a href="https://github.com/Bernardo-Bonifacio/bbflix"
-              ><img src="../../assets/github.svg" alt="Icone GitHub" />
-              Ver código no GitHub
-            </a>
-          </div>
+          data-bs-target="#carouselExampleIndicators1"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators1"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators1"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+          <img
+            src="../../assets/bbflix1.jpg"
+            class="d-block w-100"
+            alt="Filmes do BBFLIX"
+          />
+        </div>
+        <div class="carousel-item rounded">
+          <img
+            src="../../assets/bbflix2.jpg"
+            class="d-block w-100"
+            alt="Seções do BBFLIX"
+          />
+        </div>
+        <div class="carousel-item rounded">
+          <img
+            src="../../assets/bbflix3.jpg"
+            class="d-block w-100"
+            alt="Pesquisas do BBFLIX"
+          />
         </div>
       </div>
     </div>
-  </div>
-  <div
-    class="accordion container container-lg"
-    id="accordionPanelsStayOpenExample"
-  >
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button
-          class="accordion-button px-5 py-2 border border-1 border-info-subtle text-bg-info fs-4"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseTwoP"
-          aria-expanded="true"
-          aria-controls="panelsStayOpen-collapseTwoP"
-        >
-          Em Desenvolvimento
-        </button>
-      </h2>
+    <div class="d-flex flex-column gap-2 px-5 py-4 bg-body-secondary rounded">
+      <div>
+        <h5 class="text-center">Biblioteca de vídeos e séries</h5>
+        <p>
+          Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, TS, Angular, RXJS,
+          HTTP, Routes, consumo da API The Movie Database.
+        </p>
 
-      <div id="panelsStayOpen-collapseTwoP" class="accordion-collapse collapse">
-        <div
-          class="accordion-body d-flex flex-column gap-2 px-5 py-4 bg-body-secondary"
-        >
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="" class="d-block w-100" alt="Em Desenvolvimento" />
-              </div>
-              <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="Em Desenvolvimento" />
-              </div>
-              <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="Em Desenvolvimento" />
-              </div>
-            </div>
-          </div>
-          <div class="gap-5">
-            <h5 class="text-center"></h5>
-            <p>Tecnologias utilizadas:</p>
-
-            <p>Estado: em desenvolvimento</p>
-            <p>Ultima atualização em</p>
-          </div>
-          <div class="d-flex justify-content-evenly">
-            <a href="">
-              <img src="../../assets/vercel.svg" alt="Icone Vercel" />
-              Ver pagina no Vercel
-            </a>
-            <a href=""
-              ><img src="../../assets/github.svg" alt="Icone GitHub" />
-              Ver código no GitHub
-            </a>
-          </div>
-        </div>
+        <p>Estado: em desenvolvimento</p>
+        <p>Ultima atualização em 23/05/23.</p>
+      </div>
+      <div class="d-flex justify-content-evenly">
+        <a href="https://bbflix.bernardobonifacio.com">
+          <img src="../../assets/link.svg" alt="Ícone Link" />
+          Acesse a página do projeto
+        </a>
+        <a href="https://github.com/Bernardo-Bonifacio/bbflix"
+          ><img src="../../assets/github.svg" alt="Ícone GitHub" />
+          Visualize o código no GitHub
+        </a>
       </div>
     </div>
   </div>
-  <div
-    class="accordion container container-lg"
-    id="accordionPanelsStayOpenExample"
-  >
-    <div class="accordion-item">
-      <h2 class="accordion-header">
+  <div class="container container-lg d-flex flex-column gap-2">
+    <h4
+      class="px-5 py-2 border border-1 border-info-subtle rounded text-bg-info"
+    >
+      Em Desenvolvimento
+    </h4>
+    <div
+      id="carouselExampleIndicators2"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
         <button
-          class="accordion-button px-5 py-2 border border-1 border-info-subtle text-bg-info fs-4"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseThreeP"
-          aria-expanded="true"
-          aria-controls="panelsStayOpen-collapseThreeP"
-        >
-          Em Desenvolvimento
-        </button>
-      </h2>
-
-      <div
-        id="panelsStayOpen-collapseThreeP"
-        class="accordion-collapse collapse"
-      >
-        <div
-          class="accordion-body d-flex flex-column gap-2 px-5 py-4 bg-body-secondary"
-        >
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="" class="d-block w-100" alt="Em Desenvolvimento" />
-              </div>
-              <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="Em Desenvolvimento" />
-              </div>
-              <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="Em Desenvolvimento" />
-              </div>
-            </div>
-          </div>
-          <div class="gap-5">
-            <h5 class="text-center"></h5>
-            <p>Tecnologias utilizadas:</p>
-
-            <p>Estado: em desenvolvimento</p>
-            <p>Ultima atualização em</p>
-          </div>
-          <div class="d-flex justify-content-evenly">
-            <a href="">
-              <img src="../../assets/vercel.svg" alt="Icone Vercel" />
-              Ver pagina no Vercel
-            </a>
-            <a href=""
-              ><img src="../../assets/github.svg" alt="Icone GitHub" />
-              Ver código no GitHub
-            </a>
-          </div>
+          data-bs-target="#carouselExampleIndicators2"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators2"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators2"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+          <img
+            src="../../assets/pagina-em-construcao.png"
+            class="d-block w-100"
+            alt="Página em Construção"
+          />
+        </div>
+        <div class="carousel-item rounded">
+          <img
+            src="../../assets/pagina-em-construcao.png"
+            class="d-block w-100"
+            alt="Página em Construção"
+          />
+        </div>
+        <div class="carousel-item rounded">
+          <img
+            src="../../assets/pagina-em-construcao.png"
+            class="d-block w-100"
+            alt="Página em Construção"
+          />
         </div>
       </div>
     </div>
-  </div>
-  <div
-    class="accordion container container-lg"
-    id="accordionPanelsStayOpenExample"
-  >
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button
-          class="accordion-button px-5 py-2 border border-1 border-info-subtle text-bg-info fs-4"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#panelsStayOpen-collapseFourP"
-          aria-expanded="true"
-          aria-controls="panelsStayOpen-collapseFourP"
-        >
-          Em Desenvolvimento
-        </button>
-      </h2>
-
-      <div
-        id="panelsStayOpen-collapseFourP"
-        class="accordion-collapse collapse"
-      >
-        <div
-          class="accordion-body d-flex flex-column gap-2 px-5 py-4 bg-body-secondary"
-        >
-          <div
-            id="carouselExampleIndicators"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="" class="d-block w-100" alt="Em Desenvolvimento" />
-              </div>
-              <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="Em Desenvolvimento" />
-              </div>
-              <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="Em Desenvolvimento" />
-              </div>
-            </div>
-          </div>
-          <div class="gap-5">
-            <h5 class="text-center"></h5>
-            <p>Tecnologias utilizadas:</p>
-
-            <p>Estado: em desenvolvimento</p>
-            <p>Ultima atualização em</p>
-          </div>
-          <div class="d-flex justify-content-evenly">
-            <a href="">
-              <img src="../../assets/vercel.svg" alt="Icone Vercel" />
-              Ver pagina no Vercel
-            </a>
-            <a href=""
-              ><img src="../../assets/github.svg" alt="Icone GitHub" />
-              Ver código no GitHub
-            </a>
-          </div>
-        </div>
+    <div class="d-flex flex-column gap-2 px-5 py-4 bg-body-secondary rounded">
+      <div>
+        <h5 class="text-center">Em Desenvolvimento</h5>
+        <p>Tecnologias utilizadas: --</p>
+        <p>Estado: em desenvolvimento</p>
+        <p>Ultima atualização em --/--/--.</p>
+      </div>
+      <div class="d-flex justify-content-evenly">
+        <a href="">
+          <img src="../../assets/link.svg" alt="Ícone Link" />
+          Acesse a página do projeto
+        </a>
+        <a href=""
+          ><img src="../../assets/github.svg" alt="Ícone GitHub" />
+          Visualize o código no GitHub
+        </a>
       </div>
     </div>
   </div>
-</section>
+</main>

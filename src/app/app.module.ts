@@ -1,3 +1,5 @@
+// Projeto Portfolio
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -22,13 +24,10 @@ import { SkillsComponent } from './skills/skills.component';
     HeaderComponent,
     HomeComponent,
     ProjetosComponent,
-    SkillsComponent
+    SkillsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
