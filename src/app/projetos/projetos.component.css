@@ -1,1 +1,13 @@
 /* Projeto Portfolio */
+
+.carousel-inner {
+  max-width: 90vw;
+  max-height: 40vh;
+}
+
+@media (min-width: 992px) {
+  .carousel-inner {
+    max-width: 75vw;
+    max-height: 60vh;
+  }
+}

@@ -5,16 +5,10 @@
 body {
   font-family: Exo, sans-serif;
   background-image: url(./assets/background.jpg);
-  background-size: auto;
 }
 
 a {
   text-decoration: none;
-}
-
-.carousel-projetos {
-  max-width: 75vw;
-  max-height: 75vh;
 }
 
 @media (min-width: 992px) {
